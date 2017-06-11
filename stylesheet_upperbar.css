@@ -1,0 +1,8 @@
+﻿
+ul.uppertab { background-color:#862d2d; list-style-type:NONE; overflow:hidden;}
+
+ul.uppertab li { float : left ; font-family: TIMES ;}
+
+ul.uppertab li a {display: block; color: white; text-align: center; padding: 16px; text-decoration: none; font-size:125%;}
+
+ul.uppertab li a:hover {background-color: #732626; color:white;font-family:ARIAL;}	

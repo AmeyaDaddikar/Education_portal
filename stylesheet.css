@@ -1,0 +1,12 @@
+﻿
+li.uppertab { float : left ;font-family:TIMES;}
+			
+ul.uppertab { background-color:#862d2d; list-style-type:NONE; overflow:hidden;}
+
+li a.uppertab {display: block; color: white; text-align: center; padding: 16px; text-decoration: none; font-size:125%;}
+
+li a.uppertab:hover {background-color: #732626; color:white;font-family:ARIAL;}	
+			
+h1 {font-family:Trebuchet MS; text-align:center; font-size:700%;}
+			
+p.default_text{font-family:verdana; font-size:170%; color:#732626;}
