@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>OPTION BAR</title>
+<style>
+input[type=text],textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ff9999;
+    border-radius: 4px;
+    background-color: #fff4f4;
+    color:grey;
+    font-family:verdana;
+    font-size:18px;
+    box-sizing: border-box;
+}
+select { box-shadow: 2px 4px #ffcccc; font-size: 20px; color:white; background-color: #ffcece; margin:10px; border-radius:10px; border-thickness:2px; border-color:white;}
+option { background-color: white; color: #ffcece;}
+label { color: #cc0000; font-variant:small-caps; font-family: verdana; font-style:bold; font-size: 20px; text-shadow: 1.2px 1.2px #ff6666;}
+input[type=submit] {
+    width: 100%;
+    background-color: #ff6666;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #ff4d4d;
+}
+</style>
+<body>
+<form>
+
+<div style="background-color: white; margin:auto; width:70%; border-radius:10px;">
+<label for="fname">First Name</label></br>
+<input type="text" id="fname"></br>
+<label for="lname">Last Name</label></br>
+<input type="text" id="lname"></br>
+<center>
+<label for="option1">Region</label>
+<select id="option1">
+<option value="1">Option 1</option>
+<option value="2">Option 2</option>
+<option value="3">Option 3</option>
+<option value="4">Option 4</option>
+<option value="5">Option 5</option>
+<option value="6">Option 6</option>
+</select>
+<label for="option2">College</label>
+<select id="option2">
+<option value="1">Option 1</option>
+<option value="2">Option 2</option>
+<option value="3">Option 3</option>
+<option value="4">Option 4</option>
+<option value="5">Option 5</option>
+<option value="6">Option 6</option>
+</select></br>
+<label for="option3">Course</label>
+<select id="option3">
+<option value="1">Option 1</option>
+<option value="2">Option 2</option>
+<option value="3">Option 3</option>
+<option value="4">Option 4</option>
+<option value="5">Option 5</option>
+<option value="6">Option 6</option>
+</select>
+<label for="option4">Year</label>
+<select id="option4">
+<option value="1">Option 1</option>
+<option value="2">Option 2</option>
+<option value="3">Option 3</option>
+<option value="4">Option 4</option>
+<option value="5">Option 5</option>
+<option value="6">Option 6</option>
+</select></br>
+<textarea>Write additional comments here.</textarea>
+</br>
+<input type="submit" value="SUBMIT">
+</center>
+</div>
+
+</form>
+</body>
+</html>
