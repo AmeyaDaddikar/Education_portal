@@ -1,0 +1,4 @@
+div.notif {border-style: solid; border-radius:10px; border-width: 5px;height:300px; width: 28%; border-color:#862d2d;}
+div.notif h1 {background-color:#862d2d; color: white; width:100%; position:relative; top:-25px;}
+div.notif hr {background-color:#e6b3b3; color: white; width:100%; height:5px; position:relative; top:-50px;}
+div.notif p {font-size:120%; position:relative; top:-45px; height:100%; color:#d98c8c}
