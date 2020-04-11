@@ -1,0 +1,4 @@
+table.clgdetails {width :100%;  border-collapse: collapse; }
+table.clgdetails th { font-family:ARIAL; font-style:italic; color:#862d2d; border: 1px solid #ff9999; padding: 8px;}
+table.clgdetails tr:nth-child(even) {background-color:  #ff9999; color:white;}
+table.clgdetails td { border: 1px solid  #ff9999; padding: 8px; text-align:center;}
